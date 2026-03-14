@@ -129,41 +129,67 @@ The agent can autonomously call tools during reasoning.
 ---
 ## Installation
 
-- Clone the repository:
+Clone the repository:
 
-```git clone https://github.com/yourusername/ai-financial-analyst-agent.git
-cd ai-financial-analyst-agent```
+```bash
+git clone https://github.com/yourusername/ai-financial-analyst-agent.git
+cd ai-financial-analyst-agent
+```
 
-- Install dependencies:
-```pip install -r requirements.txt```
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
 ---
+
 ## Environment Variables
 
-Create a .env file:
+Create a `.env` file (copy from `.env.example` and add your keys):
+
+```bash
 OPENAI_API_KEY=your_openai_key
 TAVILY_API_KEY=your_tavily_key
+```
 ---
+
 ## Running the Agent
 
 Run the Streamlit demo interface:
-```streamlit run ui/streamlit_app.py```
+
+```bash
+streamlit run ui/streamlit_app.py
+```
+
 The app will open in your browser.
 
-Example query: "Analyze Nvidia stock and summarize opportunities and risks."
+Example query: *"Analyze Nvidia stock and summarize opportunities and risks."*
+
 ---
+
 ## Streamlit Demo Interface
 
 The Streamlit UI allows users to:
-	•	enter an asset name or ticker
-	•	run the AI financial analysis
-	•	view structured analysis results
+
+- enter an asset name or ticker
+- run the AI financial analysis
+- view structured analysis results
+
 ---
-## Example Quieries
-Analyze Tesla stock.
-Analyze Nvidia stock and summarize risks.
-Analyze Bitcoin price trends.
-Compare Apple and Microsoft financial metrics.
+
+## Example Queries
+
+- Analyze Tesla stock.
+- Analyze Nvidia stock and summarize risks.
+- Analyze Bitcoin price trends.
+- Compare Apple and Microsoft financial metrics.
+
 ---
+
 ## Use Case
+
+![AI Financial Analyst Streamlit UI](assets/project-image.png)
+
+
 
 
