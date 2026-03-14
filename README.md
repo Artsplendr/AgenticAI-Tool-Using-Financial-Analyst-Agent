@@ -1,4 +1,4 @@
-# 📊 AI Financial Analyst Agent
+# 📊 AgenticAI Financial Analyst - Tools Using
 
 An **Agentic AI application** that analyzes stocks or cryptocurrencies using real-time financial data and market news.  
 The system uses an **LLM-powered tool-using agent** that autonomously selects the appropriate tools to gather information and generate a structured financial analysis report.
@@ -7,7 +7,7 @@ This project demonstrates **Agentic AI architecture** using **OpenAI, LangChain/
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Traditional chatbots simply respond to prompts.  
 This project implements an **Agentic AI workflow** where the model can:
@@ -21,24 +21,24 @@ This project implements an **Agentic AI workflow** where the model can:
 Example user prompt:"Analyze Tesla stock and summarize opportunities and risks."
 
 Example output:
-"Asset: Tesla (TSLA)
+#### Asset: Tesla (TSLA)
 
-Current Price: $243.10
+- Current Price: $243.10
 
-Key Metrics
+- Key Metrics
 	•	Market Cap: $773B
 	•	P/E Ratio: 67
 	•	Revenue Growth: 24%
 
-Recent News
+- Recent News
 	•	Tesla expands gigafactory production
 	•	Analysts expect strong EV demand
 
-Opportunities
+- Opportunities
 	•	Growth in EV market
 	•	Expansion into AI and robotics
 
-Risks
+- Risks
 	•	Competition from Chinese EV manufacturers
 	•	Regulatory pressure"
 
@@ -78,14 +78,14 @@ The agent can autonomously call tools during reasoning.
 
 **Market Data Tool**
 
-Fetches current financial data.
+- Fetches current financial data.
 
-Possible APIs:
+- Possible APIs:
 	•	Yahoo Finance
 	•	AlphaVantage
 	•	CoinGecko
 
-Data returned:
+- Data returned:
 	•	asset price
 	•	market cap
 	•	trading volume
@@ -93,7 +93,7 @@ Data returned:
 
 **Financial Metrics Tool**
 
-Extracts financial indicators such as:
+- Extracts financial indicators such as:
 	•	P/E ratio
 	•	revenue growth
 	•	earnings
@@ -101,18 +101,18 @@ Extracts financial indicators such as:
 
 **News Search Tool**
 
-Retrieves recent financial news using:
+- Retrieves recent financial news using:
 	•	SerpAPI
 	•	News API
 
-Helps detect:
+- Helps detect:
 	•	macroeconomic trends
 	•	company announcements
 	•	analyst sentiment
 
 **Calculator Tool**
 
-Performs numeric operations such as:
+- Performs numeric operations such as:
 	•	percentage change
 	•	growth rates
 	•	financial ratio calculations
@@ -131,11 +131,12 @@ Performs numeric operations such as:
 ---
 ## Installation
 
-Clone the repository:
+- Clone the repository:
+
 ```git clone https://github.com/yourusername/ai-financial-analyst-agent.git
 cd ai-financial-analyst-agent```
 
-Install dependencies:
+- Install dependencies:
 ```pip install -r requirements.txt```
 ---
 ## Environment Variables
