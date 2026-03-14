@@ -8,8 +8,6 @@ This project demonstrates **Agentic AI architecture** using **OpenAI, LangChain/
 ---
 
 ## Overview
-
-Traditional chatbots simply respond to prompts.  
 This project implements an **Agentic AI workflow** where the model can:
 
 - understand financial analysis requests
