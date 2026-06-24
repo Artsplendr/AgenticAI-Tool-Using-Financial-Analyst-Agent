@@ -132,7 +132,7 @@ The agent can autonomously call tools during reasoning.
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ai-financial-analyst-agent.git
+git clone https://github.com/Artsplendr/AgenticAI-Financial-Analyst-Agent-Using-Tools
 cd ai-financial-analyst-agent
 ```
 
